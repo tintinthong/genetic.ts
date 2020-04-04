@@ -1,0 +1,23 @@
+{
+  "name": "genetic.ts",
+  "version": "1.0.0",
+  "description": "Genetic algorithm library inspired by geneitc.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:start && npm run build:copy",
+    "build:start": "tsc --strict --declaration --lib es2015 --outDir ./dist ./src/*.ts",
+    "build:clean": "rm -rf dist && mkdir dist",
+    "build:copy": "cp ./package.json ./dist/package.json && cp ./README.md ./dist/README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tintinthong/genetic.ts.git"
+  },
+  "author": "Justin Thong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tintinthong/tibble.js/issues"
+  },
+  "homepage": "https://github.com/tintinthong/tibble.js#readme"
+}

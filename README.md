@@ -1,3 +1,3 @@
-# tibble.js
+# genetic.ts
 
-Data frame library inspired by R Tibble
+Genetic algorithm library inspired by genetic.js 
